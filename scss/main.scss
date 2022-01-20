@@ -1,0 +1,18 @@
+@use 'custom';
+
+@use 'components/images';
+@use 'components/icons';
+@use 'components/animation';
+
+@use 'sections/header';
+@use 'sections/hero';
+@use 'sections/skills-section';
+@use 'sections/footer';
+@use 'sections/cv';
+@use 'sections/contact';
+
+@use 'media-querie/responsive';
+
+// font-family: 'Montserrat Alternates', sans-serif;
+// @import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+// @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';

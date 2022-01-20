@@ -1,0 +1,32 @@
+@import '../custom';
+
+.contact {
+    background: url('../../images/mailbox.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 50%;
+    min-height: 90vh;
+}
+
+
+.contact-form form{
+    background: linear-gradient(to right bottom, rgba($primary, 0.97), rgba($secondary, 0.85));
+    box-shadow: 1px 1px 4px $bg-dark;
+    position: relative;
+}
+
+.contact-form{
+    padding: 5rem;
+
+    &-icon {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 3px solid $primary;
+    }
+}
+
+.contact-form button {
+    background: $bg-dark;
+}

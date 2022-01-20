@@ -1,0 +1,29 @@
+@import '../custom';
+
+.boxes {
+    width: 90%;
+    margin-inline: auto !important;
+    margin-top: 7rem !important;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+}
+
+.box_skill {
+    position: relative;
+    background: linear-gradient(to right bottom, rgba($primary, 0.97), rgba($secondary, 0.97));
+    box-shadow: 1px 1px 4px $bg-dark;
+    flex-basis: 25%;
+    margin: auto;
+    min-height: 17rem;
+    transform:perspective(800px) rotateY(-15deg);
+    opacity: 0.8;
+    transition: all ease-in-out 500ms;
+
+    &:hover {
+        transform: perspective(100px) rotateY(0deg);
+        opacity: 1;
+    }
+}
+
+
+

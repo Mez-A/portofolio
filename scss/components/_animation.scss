@@ -1,0 +1,47 @@
+@import '../custom';
+
+@media screen and (min-width: 992px) {
+    @supports (animation-timeline: works) {
+    .hero-section_left{
+        animation: 1s linear forwards slide-pic;
+        animation-timeline: slide-timeline;
+        transform: translate(0px);
+    }
+
+    @scroll-timeline slide-timeline{
+        time-range: 2.5s;
+    }
+
+    @keyframes slide-pic {
+        from {
+            transform: translate(0px);
+        }
+        to {
+            transform: translate(150px, 150px);
+        }
+    }
+}
+
+
+@supports (animation-timeline: works) {
+    .box_skill{
+        animation: 1s linear forwards slide-cards;
+        animation-timeline: slide-timeline;
+        transform: translateY(-100px);
+    }
+
+    @scroll-timeline slide-timeline{
+        time-range: 2.5s;
+    }
+
+    @keyframes slide-cards {
+        from {
+            transform: translateX(-100px);
+        }
+        to {
+            transform: translateX(0px);
+        }
+    }
+}
+}
+

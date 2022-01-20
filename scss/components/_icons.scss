@@ -1,0 +1,20 @@
+@import '../custom';
+
+.icon {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.box_skill .icon {
+    height: 3rem !important;
+}
+
+.contact-form-icon {
+    height: 60px;
+    width: 60px;
+}
+
+.contact-form-icon i {
+    transform: scale(2);
+}

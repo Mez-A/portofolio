@@ -1,0 +1,39 @@
+// My Theme Colors
+$blue:    #1c5f9bf7 !default;
+$indigo:  #53a7f688 !default;
+$dark-blue: #101331 !default;
+
+// White and Gray
+$white:    #fff !default;
+$gray-100: #f3f3f3 !default;
+$gray-200: #e9ecef !default;
+$gray-300: #ddf1f5 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #0a0a0a !default;
+
+// Primary and Secondary Overwritten
+$primary:       $blue !default;
+$secondary:     $indigo !default;
+
+// background
+$bg-dark: $dark-blue !default;
+
+// Text
+p {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+
+// Import Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+// @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';

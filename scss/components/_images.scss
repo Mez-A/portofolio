@@ -1,0 +1,41 @@
+@import '../custom';
+
+img {
+    max-width: 100%;
+}
+
+.hero-section_right--img {
+
+    img {
+    width: 40%;
+    // clip-path: ellipse(58% 47.42% at 48.5% 49.19%);
+    }
+} 
+
+.skills-img {
+    width: 100%;
+    position: relative;
+    
+    &-img {
+        width: 7rem;
+        height: 7rem;
+        position: absolute;
+        top: -4rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+        object-fit: cover;
+        object-position: center;
+        border: 5px solid $primary;
+        border-radius: 50%;
+    }
+}
+
+.cv-img {
+    width: 350px;
+}
+
+.contact img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}

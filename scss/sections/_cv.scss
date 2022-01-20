@@ -1,0 +1,41 @@
+@import '../custom';
+
+.cv {
+    // margin-top: 10vh !important;
+
+    &-card {
+        width: 90%;
+        gap: 3rem;
+    }
+
+}
+
+.cv-projects {
+    // margin-top: 10vh !important;
+    background: linear-gradient(to right bottom, rgba($primary, 0.97), rgba($secondary, 0.97));
+
+    &-cards-link a{
+        position: relative;
+        z-index: 1000;
+        
+
+        &::before {
+            content: '';
+            position: absolute;
+            background-color: $bg-dark;
+            width: 0;
+            height: 0;
+            left: 0;
+            top: 0;
+            transition: all .3s ease-in-out;
+            z-index: -1;
+            border-radius: 3px;
+        }
+
+        &:hover::before {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}

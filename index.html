@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat+Alternates:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>My Portofolio</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="position-sticky w-100">
+            <nav class="navbar navbar-expand-sm navbar-light bg-light w-100">
+                <div class="container-fluid px-5">
+                    <a class="navbar-brand" href="#"><img src="images/logo1.png" alt="" style="width: 70px;"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active navi-links" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link navi-links" href="about.html">About</a>
+                            <a class="nav-link navi-links" href="contact.html">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main- Section -->
+        <main>    
+
+            <!-- section Hero -->
+            <section class="hero-section p-5 d-flex align-items-center">
+                <div class="container-fluid d-flex align-items-center">
+                    <div class="hero-section_left">
+                        <h1 class="text-light">Hi there</h1>
+                        <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores necessitatibus, odit ducimus amet illum provident fuga optio doloribus sapiente nihil esse eligendi ullam? Impedit, iste!</p>
+                        <a href="about.html" class="btn bg-dark text-white">Read More</a>
+                    </div>
+                    <div class="hero-section-right row d-none d-sm-flex">
+                        <div class="col-lg-9 hero-section_right--img d-flex justify-content-end">
+                            <img src="images/profile-pic-dimo.png" alt="Profile pic" class="img-fluid">
+                        </div>
+                        <div class="col-lg-3 hero-section_right--social-media d-flex flex-column justify-content-center align-items-center">
+                            <svg class="social-media-icons icon bg-light rounded p-1 mb-4 icon-github"><use xlink:href="images/SVG/sprite.svg#icon-github"></use></svg>
+                            <svg class="social-media-icons icon bg-light rounded p-1 mb-4 icon-linkedin"><use xlink:href="images/SVG/sprite.svg#icon-linkedin"></use></svg>
+                            <svg class="social-media-icons icon bg-light rounded p-1 icon-xing"><use xlink:href="images/SVG/sprite.svg#icon-xing"></use></svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section of skills -->
+            <section class="skills-section p-5">
+                <h2 class="text-center">Skills</h2>
+                <p class="text-center py-1 w-md-50 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laborum sunt ratione modi ipsam magnam.</p>
+                <div class="boxes row">
+                    <div class="col-md-12 col-lg-3 box_skill">
+                        <div class="skills-img">
+                            <img class="skills-img-img" src="images/frontend.jpg" alt="">
+                        </div>
+                       <h3 class="mb-1 mt-5 text-center">Frontend</h3>
+                       <div class="ps-3"><span><svg class="icon icon-code"><use xlink:href="images/SVG/sprite.svg#icon-check"></use></svg></span><strong>React</strong> </div>
+                       <div class="ps-3"><span><svg class="icon icon-code"><use xlink:href="images/SVG/sprite.svg#icon-check"></use></svg></span><strong>HTML/CSS</strong></div>
+                       <div class="ps-3"><span><svg class="icon icon-code"><use xlink:href="images/SVG/sprite.svg#icon-check"></use></svg></span><strong>SASS/Bootstrap</strong></div>
+                    </div>
+                    <div class="col-lg-3 box_skill">
+                        <div class="skills-img">
+                            <img class="skills-img-img" src="images/backend.jpg" alt="">
+                        </div>
+                        <h3 class="mb-1 mt-5 text-center">Backend</h3>
+                        <div class="ps-3"><span><svg class="icon icon-code"><use xlink:href="images/SVG/sprite.svg#icon-check"></use></svg></span><strong>PHP</strong></div>
+                        <div class="ps-3"><span><svg class="icon icon-code"><use xlink:href="images/SVG/sprite.svg#icon-check"></use></svg></span><strong>Python</strong></div>  
+                    </div>
+                    <div class="col-lg-3 box_skill">
+                        <div class="skills-img">
+                            <img class="skills-img-img" src="images/video-editing.jpg" alt="">
+                        </div>
+                        <h3 class="mb-1 mt-5 text-center">Others</h3>
+                        <div class="ps-3"><span><svg class="icon icon-code"><use xlink:href="images/SVG/sprite.svg#icon-check"></use></svg></span><strong>Photo & Video Editing</strong></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-primary mt-3">
+            
+            <div class="interrested p-5">
+                <h4 class="text-center text-light">Interested?</h4>
+                <p class="text-center text-light">You can contact me through <a class="link-dark text-decoration-none" href="contact.html">test@test.de</a> or you can follow my progress through...</p>
+                <div class="footer-social-media-icons text-center">
+                    <svg class="social-media-icons icon me-4 bg-light rounded p-1 icon-github"><use xlink:href="images/SVG/sprite.svg#icon-github"></use></svg>
+                    <svg class=" social-media-icons icon me-4 bg-light rounded p-1 icon-linkedin"><use xlink:href="images/SVG/sprite.svg#icon-linkedin"></use></svg>
+                    <svg class="social-media-icons icon bg-light rounded p-1 icon-xing"><use xlink:href="images/SVG/sprite.svg#icon-xing"></use></svg>
+                </div>
+            </div>
+            <div class="copyright text-center p-3 bg-light">
+                <p>Copyright &copy; My Website 2021</p>
+            </div>
+            
+        </footer>
+
+    </div>
+
+    
+</body>
+</html>

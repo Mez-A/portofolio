@@ -1,0 +1,21 @@
+@import '../custom';
+
+.hero-section {
+    background: linear-gradient(to right bottom, rgba($primary, 0.97), rgba($secondary, 0.97));
+    height: 90vh;
+    // margin-top: 10vh;
+
+    &_right{
+        gap: 2rem;
+    }
+
+    &_left {
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+
+    // h1, p {
+    //     background-color: ;
+    // }
+    }
+}
+

@@ -1,0 +1,113 @@
+@media screen and (max-width: 576px) {
+
+    .cv .cv-card {
+        flex-direction: column !important;
+        gap: 0 !important;
+        padding: 0 !important;
+        margin-bottom: 3rem !important;
+        
+        &-text {
+            text-align: start !important;
+        }
+    }
+
+    .cv-img {
+        align-self: flex-start !important;
+    }
+
+    .contact-form form {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .boxes {
+        row-gap: 5rem;
+    }
+
+    .cv {
+        margin-top: calc(10vh + 0rem) !important;
+    }
+    
+}
+
+@media screen and (min-width: 768.1px) and (max-width: 991.8px) {
+    .boxes{
+        display: flex;
+        flex-direction: row !important;
+    }
+    .box_skill:nth-child(2), .box_skill:nth-child(3) {
+        width: 50% !important;
+        background-color: red !important;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    .hero-section_right {
+        &--img {
+        justify-content: center !important;
+        }
+        &--social-media {
+            flex-direction: row !important;
+            margin-right: 1rem;
+        }
+    }
+    
+    .icon {
+        margin-right: 2rem;
+    }
+
+    .icon:last-child {
+        align-self: flex-start;
+    }
+
+    .boxes {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .box_skill {
+        flex-basis: 100%;
+        transform: perspective(0px) rotate(0deg);
+        z-index: -1000;
+        opacity: 1;
+    }
+
+    .cv-card {
+        flex-direction: row !important;
+        align-items: center ;
+        justify-content: space-between ;
+        width: 100%;
+        gap: 1rem !important;
+    }
+
+    .cv-img {
+        width: 250px;
+    }
+
+    .cv-projects {
+        margin-top: 0;
+    }
+
+    .contact-form form {
+        width: 75% !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .cv-card {
+        flex-direction: column;
+        gap: 0;
+        padding: 0 !important;
+        margin-bottom: 3rem;
+        
+        &-text {
+            text-align: start !important;
+        }
+    }
+
+    .cv-img {
+        align-self: flex-start;
+    }
+}

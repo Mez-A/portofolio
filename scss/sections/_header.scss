@@ -1,0 +1,27 @@
+@import '../custom';
+
+header {
+    z-index: 1;
+    top: 0;
+}
+
+.navi-links {
+    margin-right: 1rem;
+    position: relative;
+    text-align: center;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 0%;
+        height: 1px;
+        bottom: 5px;
+        left: 0px;
+        background-color: $gray-700;
+        transition: all 0.3s ease-in-out ;
+    }
+
+    &:hover::before {
+        width: 100%;
+    }
+}
